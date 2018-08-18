@@ -6,6 +6,6 @@ using namespace Rcpp;
 //' @useDynLib RcppNoInitTest, .registration = TRUE
 // [[Rcpp::export]]
 IntegerVector test() {
-  IntegerVector ret = no_init(1);
+  IntegerVector ret(no_init(1));
   return ret;
 }

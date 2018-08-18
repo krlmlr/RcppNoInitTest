@@ -26,7 +26,4 @@ Function Rcpp::internal::is_Rcpp_eval_call(SEXPREC*)
 Function _RcppNoInitTest_test
   [UP] ignoring variable <unnamed var:   %14 = alloca %struct.SEXPREC*, align 8> as it has address taken, results will be incomplete 
   [PB] has possible protection stack imbalance /home/kirill/git/R/RcppNoInitTest/src/RcppExports.cpp:17
-
-Function _ZNK4Rcpp14no_init_vectorcvNS_6VectorIXT_ET0_EEILi13ENS_15PreserveStorageEEEv
-  [UP] calling allocating function Rcpp::Vector<13, Rcpp::PreserveStorage>::Vector(SEXPREC*)(?,V) with argument allocated using Rf_allocVector /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/vector/no_init.h:40
-Analyzed 171 functions, traversed 1013 states.
+Analyzed 152 functions, traversed 956 states.
