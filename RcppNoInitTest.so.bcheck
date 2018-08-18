@@ -26,4 +26,4 @@ Function Rcpp::internal::is_Rcpp_eval_call(SEXPREC*)
 Function _RcppNoInitTest_test
   [UP] ignoring variable <unnamed var:   %14 = alloca %struct.SEXPREC*, align 8> as it has address taken, results will be incomplete 
   [PB] has possible protection stack imbalance /home/kirill/git/R/RcppNoInitTest/src/RcppExports.cpp:17
-Analyzed 152 functions, traversed 956 states.
+Analyzed 171 functions, traversed 1017 states.
