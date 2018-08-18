@@ -11,3 +11,8 @@ Date: 2018-08-18
 BugReports: https://github.com/krlmlr/RcppNoInitTest/issues
 URL: https://github.com/krlmlr/RcppNoInitTest, http://krlmlr.github.io/RcppNoInitTest
 Roxygen: list(markdown = TRUE)
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+RoxygenNote: 6.1.0
