@@ -1,29 +1,8 @@
 
-Function Rcpp::Rcpp_eval(SEXPREC*, SEXPREC*)
-  [UP] unprotected variable identity while calling allocating function Rf_install /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/api/meat/Rcpp_eval.h:85
-  [UP] unprotected variable identity while calling allocating function Rf_lang3(S:evalq,?,?) /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/api/meat/Rcpp_eval.h:85
-  [UP] unprotected variable identity while calling allocating function Rf_install /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/api/meat/Rcpp_eval.h:88
-
 Function Rcpp::Rcpp_protect(SEXPREC*)
   [PB] has possible protection stack imbalance /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shield.h:25
-
-Function Rcpp::Shelter<SEXPREC*>::operator()(SEXPREC*)
-  [PB] has possible protection stack imbalance /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shelter.h:30
-
-Function Rcpp::Shelter<SEXPREC*>::~Shelter()
-  [PB] has an unsupported form of unprotect (not constant, not variable), results will be incomplete /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shelter.h:34
-  [UP] unsupported form of unprotect, unprotecting all variables, results will be incomplete /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shelter.h:34
-
-Function Rcpp::Shield<SEXPREC*>::~Shield()
-  [PB] has negative depth /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shield.h:33
-  [UP] attempt to unprotect more items (1) than protected (0), results will be incomplete /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shield.h:33
-  [PB] has possible protection stack imbalance /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/protection/Shield.h:34
-
-Function Rcpp::internal::is_Rcpp_eval_call(SEXPREC*)
-  [UP] unprotected variable identity_fun while calling allocating function Rf_install /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/exceptions.h:247
-  [UP] unprotected variable identity_fun while calling allocating function Rf_install /home/kirill/git/R/rchk/trunk/packages/lib/Rcpp/include/Rcpp/exceptions.h:248
 
 Function _RcppNoInitTest_test
   [UP] ignoring variable <unnamed var:   %14 = alloca %struct.SEXPREC*, align 8> as it has address taken, results will be incomplete 
   [PB] has possible protection stack imbalance /home/kirill/git/R/RcppNoInitTest/src/RcppExports.cpp:17
-Analyzed 171 functions, traversed 1017 states.
+Analyzed 172 functions, traversed 957 states.
